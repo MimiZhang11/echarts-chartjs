@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EchartsComponent } from './components/echarts/echarts.component';
+import { ChartjsComponent } from './components/chartjs/chartjs.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EchartsComponent,
+    ChartjsComponent
   ],
   imports: [
     BrowserModule,
